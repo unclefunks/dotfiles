@@ -1,0 +1,11 @@
+ {
+    "explorer.confirmDelete": false,
+    "workbench.tree.indent": 20,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "\"FiraCode Nerd Font\",Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "workbench.iconTheme": "vscode-icons",
+    "git.confirmSync": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.tabSize": 2
+}
