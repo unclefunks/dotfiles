@@ -1,0 +1,21 @@
+{
+    "C_Cpp.updateChannel": "Insiders",
+    "explorer.confirmDelete": false,
+    "workbench.tree.indent": 20,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "workbench.iconTheme": "vscode-icons",
+    "git.confirmSync": false,
+    "remote.containers.defaultExtensions": [
+        "donjayamanne.githistory",
+        "davidanson.vscode-markdownlint",
+        "spmeesseman.vscode-taskexplorer"
+    ],
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.formatOnSave": true,
+    "update.mode": "none",
+    "aws.profile": "profile:default",
+    "json.schemas": [],
+    "security.workspace.trust.untrustedFiles": "open"
+}
