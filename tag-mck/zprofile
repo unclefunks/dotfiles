@@ -1,5 +1,0 @@
-# Homebrew path
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
-# Poetry path
-export PATH="/Users/Chris_Grove/.local/bin:$PATH"
