@@ -1,5 +1,7 @@
-[include]
-	path = .gitconfig-user
+[user]
+	# email = cgrove99@gmail.com
+	email = chris.grove@vansysinc.com
+	name = Chris Grove
 [init]
 	defaultBranch = main
 [filter "lfs"]
