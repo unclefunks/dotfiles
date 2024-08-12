@@ -8,6 +8,11 @@ cask "bitwarden"
 
 # Desktop utilities
 cask "lunar" # Software monitor control via DDC
+cask "balenaetcher"
+cask "gimp"
+cask "inkscape"
+cask "slack"
+cask "discord"
 
 # Productivity
 cask "google-chrome"
@@ -18,9 +23,11 @@ cask "microsoft-teams"
 cask "docker"
 
 # Nerd font for terminals and dev tools
-cask "font-iosevka"
+cask "font-fira-code-nerd-font"
 
 # Terminal tools
+cask "iterm2"
+cask "warp"
 brew "rcm" # Dotfile management
 brew "starship" # Fancy prompt
 brew "whalebrew"
