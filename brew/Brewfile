@@ -35,5 +35,9 @@ brew "whalebrew"
 # Dev tools
 whalebrew "whalebrew/wget"
 brew "git"
-cask "git-credential-manager" # Supports Azure DevOps auth
 cask "visual-studio-code"
+
+# Dev tools - Vantage
+cask "git-credential-manager" # Supports Azure DevOps auth
+cask "dotnet-sdk"
+whalebrew "whalebrew/azure-cli"

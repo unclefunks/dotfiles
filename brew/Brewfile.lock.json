@@ -170,6 +170,16 @@
             "require_sha": true
           }
         }
+      },
+      "dotnet-sdk": {
+        "version": "8.0.303,763ab233-7f0e-481c-8b8a-c432328330a5,8a1d8bed9188f553e1cd3ea2b615a93a",
+        "options": {
+          "full_name": "dotnet-sdk",
+          "args": {
+            "appdir": "/Applications",
+            "require_sha": true
+          }
+        }
       }
     },
     "brew": {
@@ -361,7 +371,8 @@
       }
     },
     "whalebrew": {
-      "whalebrew/wget": "dff6b84c2e317d4c1a6a81c55e6f91d46b73dc19713f53d06cf3a3b19b0c7815"
+      "whalebrew/wget": "dff6b84c2e317d4c1a6a81c55e6f91d46b73dc19713f53d06cf3a3b19b0c7815",
+      "whalebrew/azure-cli": "24314364c1883818eaa12695293bf2790c0b223d3a28680769e077d111c61bd9"
     }
   },
   "system": {
