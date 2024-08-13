@@ -3,6 +3,10 @@
 # Default target location for casks
 cask_args appdir: "/Applications", require_sha: true
 
+# System package tools
+brew "mas" # Mac App Store CLI
+brew "whalebrew" # Docker CLI for Homebrew
+
 # Password manager
 cask "bitwarden"
 
@@ -30,7 +34,6 @@ cask "iterm2"
 cask "warp"
 brew "rcm" # Dotfile management
 brew "starship" # Fancy prompt
-brew "whalebrew"
 
 # Dev tools
 whalebrew "whalebrew/wget"
@@ -38,6 +41,8 @@ brew "git"
 cask "visual-studio-code"
 
 # Dev tools - Vantage
+mas "Azure VPN Client", id: 1553936137
+cask "microsoft-remote-desktop"
 cask "git-credential-manager" # Supports Azure DevOps auth
 cask "dotnet-sdk"
 whalebrew "whalebrew/azure-cli"
