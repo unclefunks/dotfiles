@@ -20,8 +20,10 @@ cask "discord"
 
 # Productivity
 cask "google-chrome"
+cask "zoom"
 cask "microsoft-office"
 cask "microsoft-teams"
+cask "shapr3d"
 
 # Containers
 cask "docker"
@@ -39,10 +41,13 @@ brew "starship" # Fancy prompt
 whalebrew "whalebrew/wget"
 brew "git"
 cask "visual-studio-code"
+cask "postman"
+brew "terraform"
+mas "WakeOnCommand", id: 1484204619
 
 # Dev tools - Vantage
 mas "Azure VPN Client", id: 1553936137
 cask "microsoft-remote-desktop"
 cask "git-credential-manager" # Supports Azure DevOps auth
 cask "dotnet-sdk"
-whalebrew "whalebrew/azure-cli"
+brew "azure-cli"
