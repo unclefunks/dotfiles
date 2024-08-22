@@ -51,3 +51,4 @@ cask "microsoft-remote-desktop"
 cask "git-credential-manager" # Supports Azure DevOps auth
 cask "dotnet-sdk"
 brew "azure-cli"
+brew "sqlcmd"
