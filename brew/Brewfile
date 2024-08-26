@@ -1,5 +1,8 @@
 # https://github.com/Homebrew/homebrew-bundle
 
+# For MS SQL tools, you need to accept the EULA
+# HOMEBREW_ACCEPT_EULA=Y brew bundle
+
 # Default target location for casks
 cask_args appdir: "/Applications", require_sha: true
 
@@ -51,4 +54,8 @@ cask "microsoft-remote-desktop"
 cask "git-credential-manager" # Supports Azure DevOps auth
 cask "dotnet-sdk"
 brew "azure-cli"
-brew "sqlcmd"
+
+tap "microsoft/mssql-release", "https://github.com/Microsoft/homebrew-mssql-release"
+# brew "sqlcmd"
+brew "msodbcsql18"
+brew "mssql-tools18"
