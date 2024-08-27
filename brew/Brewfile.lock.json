@@ -202,7 +202,7 @@
         }
       },
       "postman": {
-        "version": "11.9.0",
+        "version": "11.10.0",
         "options": {
           "full_name": "postman",
           "args": {
