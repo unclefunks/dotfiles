@@ -27,6 +27,7 @@ cask "zoom"
 cask "microsoft-office"
 cask "microsoft-teams"
 cask "shapr3d"
+cask "anytype"
 
 # Containers
 cask "docker"
@@ -57,5 +58,3 @@ brew "azure-cli"
 
 tap "microsoft/mssql-release", "https://github.com/Microsoft/homebrew-mssql-release"
 brew "sqlcmd"
-# brew "msodbcsql18"
-# brew "mssql-tools18"
