@@ -12,7 +12,7 @@
         }
       },
       "google-chrome": {
-        "version": "128.0.6613.85",
+        "version": "128.0.6613.114",
         "options": {
           "full_name": "google-chrome",
           "args": {
@@ -32,7 +32,7 @@
         }
       },
       "docker": {
-        "version": "4.33.0,160616",
+        "version": "4.34.0,165256",
         "options": {
           "full_name": "docker",
           "args": {
@@ -112,7 +112,7 @@
         }
       },
       "slack": {
-        "version": "4.39.95",
+        "version": "4.40.120",
         "options": {
           "full_name": "slack",
           "args": {
@@ -122,7 +122,7 @@
         }
       },
       "discord": {
-        "version": "0.0.316",
+        "version": "0.0.317",
         "options": {
           "full_name": "discord",
           "args": {
@@ -132,7 +132,7 @@
         }
       },
       "warp": {
-        "version": "0.2024.08.20.08.02.stable_00",
+        "version": "0.2024.08.27.08.02.stable_02",
         "options": {
           "full_name": "warp",
           "args": {
@@ -182,7 +182,7 @@
         }
       },
       "microsoft-remote-desktop": {
-        "version": "10.9.9",
+        "version": "10.9.10",
         "options": {
           "full_name": "microsoft-remote-desktop",
           "args": {
@@ -225,6 +225,16 @@
         "version": "0.42.4",
         "options": {
           "full_name": "anytype",
+          "args": {
+            "appdir": "/Applications",
+            "require_sha": true
+          }
+        }
+      },
+      "studio-3t": {
+        "version": "2024.3.1",
+        "options": {
+          "full_name": "studio-3t",
           "args": {
             "appdir": "/Applications",
             "require_sha": true
