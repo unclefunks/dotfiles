@@ -44,6 +44,7 @@ brew "starship" # Fancy prompt
 # Dev tools
 whalebrew "whalebrew/wget"
 brew "git"
+brew "jq"
 cask "visual-studio-code"
 cask "postman"
 brew "terraform"
@@ -56,5 +57,6 @@ cask "git-credential-manager" # Supports Azure DevOps auth
 cask "dotnet-sdk"
 brew "azure-cli"
 brew "sqlcmd"
+cask "azure-data-studio"
 cask "studio-3t"
 cask "microsoft-azure-storage-explorer"
