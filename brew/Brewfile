@@ -28,6 +28,7 @@ cask "microsoft-office"
 cask "microsoft-teams"
 cask "shapr3d"
 cask "anytype"
+cask "wondershare-filmora"
 
 # Containers
 cask "docker"

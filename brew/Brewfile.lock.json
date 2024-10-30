@@ -2,7 +2,7 @@
   "entries": {
     "cask": {
       "bitwarden": {
-        "version": "2024.10.1",
+        "version": "2024.10.2",
         "options": {
           "full_name": "bitwarden",
           "args": {
@@ -12,7 +12,7 @@
         }
       },
       "google-chrome": {
-        "version": "130.0.6723.59",
+        "version": "130.0.6723.92",
         "options": {
           "full_name": "google-chrome",
           "args": {
@@ -32,7 +32,7 @@
         }
       },
       "docker": {
-        "version": "4.34.3,170107",
+        "version": "4.35.0,172550",
         "options": {
           "full_name": "docker",
           "args": {
@@ -52,7 +52,7 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.94.2",
+        "version": "1.95.0",
         "options": {
           "full_name": "visual-studio-code",
           "args": {
@@ -112,7 +112,7 @@
         }
       },
       "slack": {
-        "version": "4.40.133",
+        "version": "4.41.97",
         "options": {
           "full_name": "slack",
           "args": {
@@ -122,7 +122,7 @@
         }
       },
       "discord": {
-        "version": "0.0.322",
+        "version": "0.0.323",
         "options": {
           "full_name": "discord",
           "args": {
@@ -132,7 +132,7 @@
         }
       },
       "warp": {
-        "version": "0.2024.10.15.08.02.stable_04",
+        "version": "0.2024.10.23.14.49.stable_00",
         "options": {
           "full_name": "warp",
           "args": {
@@ -192,7 +192,7 @@
         }
       },
       "shapr3d": {
-        "version": "5.730.0.7613",
+        "version": "5.741.0.7722",
         "options": {
           "full_name": "shapr3d",
           "args": {
@@ -212,7 +212,7 @@
         }
       },
       "zoom": {
-        "version": "6.2.3.40682",
+        "version": "6.2.6.41824",
         "options": {
           "full_name": "zoom",
           "args": {
@@ -222,7 +222,7 @@
         }
       },
       "anytype": {
-        "version": "0.42.8",
+        "version": "0.43.2",
         "options": {
           "full_name": "anytype",
           "args": {
@@ -242,7 +242,7 @@
         }
       },
       "microsoft-azure-storage-explorer": {
-        "version": "1.36.0",
+        "version": "1.36.2",
         "options": {
           "full_name": "microsoft-azure-storage-explorer",
           "args": {
@@ -255,6 +255,16 @@
         "version": "1.49.1",
         "options": {
           "full_name": "azure-data-studio",
+          "args": {
+            "appdir": "/Applications",
+            "require_sha": true
+          }
+        }
+      },
+      "wondershare-filmora": {
+        "version": "13.0.25",
+        "options": {
+          "full_name": "wondershare-filmora",
           "args": {
             "appdir": "/Applications",
             "require_sha": true
@@ -666,7 +676,7 @@
     "mas": {
       "Azure VPN Client": {
         "id": "1553936137",
-        "version": "2.5.3"
+        "version": "2.7.101"
       },
       "WakeOnCommand": {
         "id": "1484204619",
@@ -686,7 +696,7 @@
   "system": {
     "macos": {
       "sonoma": {
-        "HOMEBREW_VERSION": "4.4.2",
+        "HOMEBREW_VERSION": "4.4.3",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "16.0.0.0.1.1724870825",
