@@ -32,7 +32,7 @@
         }
       },
       "docker": {
-        "version": "4.35.0,172550",
+        "version": "4.35.1,173168",
         "options": {
           "full_name": "docker",
           "args": {
@@ -52,7 +52,7 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.95.0",
+        "version": "1.95.1",
         "options": {
           "full_name": "visual-studio-code",
           "args": {
@@ -132,7 +132,7 @@
         }
       },
       "warp": {
-        "version": "0.2024.10.23.14.49.stable_00",
+        "version": "0.2024.10.29.08.02.stable_02",
         "options": {
           "full_name": "warp",
           "args": {
@@ -222,7 +222,7 @@
         }
       },
       "anytype": {
-        "version": "0.43.2",
+        "version": "0.43.4",
         "options": {
           "full_name": "anytype",
           "args": {
@@ -232,7 +232,7 @@
         }
       },
       "studio-3t": {
-        "version": "2024.4.0",
+        "version": "2024.4.1",
         "options": {
           "full_name": "studio-3t",
           "args": {
@@ -682,7 +682,8 @@
         "id": "1484204619",
         "version": "1.0.3"
       },
-      "FineReader PDF: OCR Converter": null
+      "FineReader PDF: OCR Converter": null,
+      "bitwarden": null
     },
     "tap": {
       "microsoft/mssql-release": {

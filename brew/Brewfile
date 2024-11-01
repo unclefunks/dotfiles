@@ -11,7 +11,7 @@ brew "mas" # Mac App Store CLI
 brew "whalebrew" # Docker CLI for Homebrew
 
 # Password manager
-cask "bitwarden"
+mas "bitwarden", id: 1352778147
 
 # Desktop utilities
 cask "lunar" # Software monitor control via DDC
