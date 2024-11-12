@@ -3,6 +3,6 @@
 # Repo root
 cd "$( dirname "$(readlink -f "$0")" )/.."
 
-cd brew
+cd mac-brew
 brew bundle
 cd ..
