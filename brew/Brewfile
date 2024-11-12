@@ -52,6 +52,7 @@ brew "terraform"
 mas "WakeOnCommand", id: 1484204619
 
 # Dev tools - Vantage
+brew "mono"
 mas "Azure VPN Client", id: 1553936137
 cask "microsoft-remote-desktop"
 cask "git-credential-manager" # Supports Azure DevOps auth
