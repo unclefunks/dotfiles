@@ -29,6 +29,8 @@ cask "microsoft-teams"
 cask "shapr3d"
 cask "anytype"
 cask "wondershare-filmora"
+cask "google-earth-pro"
+cask "qgis"
 
 # Containers
 cask "docker"
