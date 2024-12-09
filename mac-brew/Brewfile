@@ -31,6 +31,7 @@ cask "anytype"
 cask "wondershare-filmora"
 cask "google-earth-pro"
 cask "qgis"
+cask "claude"
 
 # Containers
 cask "docker"
@@ -49,8 +50,11 @@ whalebrew "whalebrew/wget"
 brew "git"
 brew "jq"
 cask "visual-studio-code"
+cask "zed"
 cask "postman"
 brew "terraform"
+brew "uv"
+brew "sqlite"
 mas "WakeOnCommand", id: 1484204619
 
 # Dev tools - Vantage
