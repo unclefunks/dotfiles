@@ -20,6 +20,7 @@ cask "gimp"
 cask "inkscape"
 cask "slack"
 cask "discord"
+cask "vlc"
 
 # Productivity
 cask "google-chrome"

@@ -5,4 +5,3 @@ cd "$( dirname "$(readlink -f "$0")" )/.."
 
 cd mac-brew
 brew bundle
-cd ..
