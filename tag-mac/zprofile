@@ -13,3 +13,6 @@ path+=($HOME/Library/Python/3.9/bin)
 
 # Dotnet global executables
 path+=($HOME/.dotnet/tools)
+
+# BCP utility from MSSQL tools
+alias bcp='/opt/homebrew/Cellar/mssql-tools/17.10.1.1/bin/bcp'
