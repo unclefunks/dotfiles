@@ -21,6 +21,7 @@ cask "inkscape"
 cask "slack"
 cask "discord"
 cask "vlc"
+cask "balenaetcher"
 
 # Productivity
 cask "google-chrome"
