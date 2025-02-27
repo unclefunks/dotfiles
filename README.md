@@ -2,10 +2,17 @@
 
 ## Tool
 
-Dotfiles are setup and maintained using [rcm](https://github.com/thoughtbot/rcm).
+Dotfiles are setup and maintained using [rcm](https://github.com/thoughtbot/rcm). Excluded files and other configuration are in `rcrc` (symlinked to `~/.rcrc`).
 
-Clone this repository to `~/.dotfiles` (`git clone https://github.com/unclefunks/dotfiles.git ~/.dotfiles`).
+Useful commands:
+* `rcup` - creates all symlinks; use `rcup -t mac` to include Mac-specific files
+* `rcdn` - removes all symlinks
+* `lsrc` - lists all files managed by `rcm`
 
-On a new host, or after adding new files here, run `bin/rcup.sh` to symlink all managed dotfiles. This is just the `rcup` command from `rcm`, but with some exclusions to prevent support files from being symlinked.
+Clone this repository to `~/.dotfiles`:
 
-To remove all symlinks, run `rcdn`.
+```sh
+git clone https://github.com/unclefunks/dotfiles.git ~/.dotfiles`
+```
+
+Then run one of the platform-specific setup scripts in `~/.dotfiles/bin`.
