@@ -1,0 +1,2 @@
+EXCLUDES="bin/* mac-brew/* README.md"
+UNDOTTED="Funks.json"
