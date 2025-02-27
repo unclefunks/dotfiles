@@ -8,5 +8,5 @@ brew install starship
 
 # Dotfile manager
 brew install rcm
-rcm up rcrc
-rcm up -t mac
+rcup rcrc
+rcup -t mac

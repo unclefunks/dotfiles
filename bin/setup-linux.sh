@@ -7,5 +7,5 @@ curl -sS https://starship.rs/install.sh | sh -s -- -y
 sudo apt-get update
 sudo apt-get install rcm
 
-rcm up rcrc
-rcm up -t linux
+rcup rcrc
+rcup -t linux
