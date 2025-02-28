@@ -35,7 +35,6 @@ cask "shapr3d"
 cask "anytype"
 cask "wondershare-filmora"
 cask "google-earth-pro"
-cask "qgis"
 cask "claude"
 
 # Containers
@@ -76,7 +75,7 @@ cask "git-credential-manager" # Supports Azure DevOps auth
 cask "dotnet-sdk"
 brew "azure-cli"
 brew "sqlcmd"
-brew "mssql-tools"
+brew "mssql-tools18"
 cask "azure-data-studio"
 cask "studio-3t"
 cask "microsoft-azure-storage-explorer"
