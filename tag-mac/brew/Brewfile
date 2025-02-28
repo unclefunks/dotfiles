@@ -23,6 +23,9 @@ cask "discord"
 cask "vlc"
 cask "balenaetcher"
 
+# Command-line utilities
+brew "imagemagick"
+
 # Productivity
 cask "google-chrome"
 cask "zoom"
@@ -36,7 +39,10 @@ cask "qgis"
 cask "claude"
 
 # Containers
-cask "docker"
+brew "podman"
+brew "podman-compose"
+brew "podman-tui"
+brew "kubectl"
 
 # Nerd font for terminals and dev tools
 cask "font-fira-code-nerd-font"
