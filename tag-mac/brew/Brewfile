@@ -52,6 +52,8 @@ cask "iterm2"
 cask "warp"
 brew "rcm" # Dotfile management
 brew "starship" # Fancy prompt
+brew "grc"
+brew "multitail"
 
 # Dev tools
 whalebrew "whalebrew/wget"
