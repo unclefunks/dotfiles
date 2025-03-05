@@ -6,3 +6,5 @@ export VIRTUAL_ENV_DISABLE_PROMPT=1
 
 alias ll='ls -l'
 alias la='ls -al'
+
+export PATH="$HOME/.local/bin:$PATH"
