@@ -8,10 +8,6 @@ cask_args appdir: "/Applications", require_sha: true
 
 # System package tools
 brew "mas" # Mac App Store CLI
-brew "whalebrew" # Docker CLI for Homebrew
-
-# Password manager
-mas "bitwarden", id: 1352778147
 
 # Desktop utilities
 cask "lunar" # Software monitor control via DDC
@@ -21,7 +17,6 @@ cask "inkscape"
 cask "slack"
 cask "discord"
 cask "vlc"
-cask "balenaetcher"
 
 # Command-line utilities
 brew "imagemagick"
@@ -29,18 +24,11 @@ brew "imagemagick"
 # Productivity
 cask "google-chrome"
 cask "zoom"
-cask "microsoft-office"
-cask "microsoft-teams"
-cask "shapr3d"
-cask "anytype"
-cask "wondershare-filmora"
 cask "google-earth-pro"
 cask "claude"
 
 # Containers
-brew "podman"
-brew "podman-compose"
-brew "podman-tui"
+brew "docker"
 brew "kubectl"
 
 # Nerd font for terminals and dev tools
@@ -48,34 +36,18 @@ cask "font-fira-code-nerd-font"
 
 # Terminal tools
 cask "iterm2"
-cask "warp"
 brew "rcm" # Dotfile management
 brew "starship" # Fancy prompt
-brew "grc"
+brew "grc" # Generic colorizer
 brew "multitail"
 
 # Dev tools
-whalebrew "whalebrew/wget"
 brew "git"
 brew "jq"
 brew "ansible"
 cask "visual-studio-code"
 cask "zed"
-cask "postman"
 brew "terraform"
 brew "uv"
 brew "sqlite"
-mas "WakeOnCommand", id: 1484204619
-
-# Dev tools - Vantage
-brew "mono"
-mas "Azure VPN Client", id: 1553936137
-cask "microsoft-remote-desktop"
-cask "git-credential-manager" # Supports Azure DevOps auth
-cask "dotnet-sdk"
-brew "azure-cli"
-brew "sqlcmd"
-brew "mssql-tools18"
-cask "azure-data-studio"
-cask "studio-3t"
-cask "microsoft-azure-storage-explorer"
+# mas "WakeOnCommand", id: 1484204619

@@ -6,9 +6,13 @@ path+=/opt/whalebrew/bin
 export DOCKER_DEFAULT_PLATFORM=linux/amd64
 
 # Allow Mono to use assemblies installed from other Homebrew formulae
-export MONO_GAC_PREFIX="/opt/homebrew"
+# export MONO_GAC_PREFIX="/opt/homebrew"
 
 # Dotnet global executables
-path+=($HOME/.dotnet/tools)
+# path+=($HOME/.dotnet/tools)
 
-export PATH="$(brew --prefix python)/libexec/bin:$PATH"
+path+="$HOME/go/bin"
+path+="$(brew --prefix python)/libexec/bin"
+
+# XQuartz
+export DISPLAY=':0'
