@@ -40,6 +40,10 @@ brew "rcm" # Dotfile management
 brew "starship" # Fancy prompt
 brew "grc" # Generic colorizer
 brew "multitail"
+brew "lsd" # ls with icons and colors
+brew "bat" # cat with syntax highlighting
+brew "fzf" # Fuzzy finder
+brew "ripgrep" # Fast grep alternative
 
 # Dev tools
 brew "git"
