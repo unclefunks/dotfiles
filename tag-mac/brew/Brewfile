@@ -28,7 +28,7 @@ cask "google-earth-pro"
 cask "claude"
 
 # Containers
-brew "docker"
+brew "docker-desktop"
 brew "kubectl"
 
 # Nerd font for terminals and dev tools
@@ -49,10 +49,13 @@ brew "lsd" # ls with icons and colors
 brew "bat" # cat with syntax highlighting
 brew "fzf" # Fuzzy finder
 brew "ripgrep" # Fast grep alternative
+brew "zoxide" # Fast directory jumping
 
 # Dev tools
 brew "git"
+brew "bash"
 brew "jq"
+brew "gpg"
 brew "ansible"
 cask "visual-studio-code"
 cask "zed"

@@ -1,6 +1,5 @@
 [user]
-	# email = cgrove99@gmail.com
-	email = chris.grove@vansysinc.com
+	email = chris.grove@stablekernel.com
 	name = Chris Grove
 [init]
 	defaultBranch = main
@@ -10,12 +9,8 @@
 	process = git-lfs filter-process
 	required = true
 
-# Use Azure DevOps without SSH keys or PATs (https://github.com/git-ecosystem/git-credential-manager)
 [credential]
-	helper = osxkeychain
 	helper = 
 	helper = /usr/local/share/gcm-core/git-credential-manager
-[pull]
-	rebase = true
 [credential "https://dev.azure.com"]
 	useHttpPath = true
