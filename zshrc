@@ -1,4 +1,8 @@
-eval "$(oh-my-posh init zsh --config https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/sonicboom_dark.omp.json)"
+# Starship prompt
+eval "$(starship init zsh)"
+
+# Brew
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # zoxide
 eval "$(zoxide init zsh)"

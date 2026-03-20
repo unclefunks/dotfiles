@@ -1,15 +1,5 @@
-# Brew and Whalebrew
-eval "$(/opt/homebrew/bin/brew shellenv)"
-path+=/opt/whalebrew/bin
-
 # Force Docker to use the right images on M3
 export DOCKER_DEFAULT_PLATFORM=linux/amd64
-
-# Allow Mono to use assemblies installed from other Homebrew formulae
-# export MONO_GAC_PREFIX="/opt/homebrew"
-
-# Dotnet global executables
-# path+=($HOME/.dotnet/tools)
 
 path+="$HOME/go/bin"
 path+="$(brew --prefix python)/libexec/bin"
